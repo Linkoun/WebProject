@@ -1,0 +1,43 @@
+<html>
+<head>
+	<link href="Forme.css" type="text/css" rel="stylesheet">
+	<meta charset="utf-8">
+	<title> Les objets ont plusieurs vies </title>
+</head>
+<body>
+<div>
+	<ul id="menu">
+		<li class="menu"> Accueil </li>
+		<li class="menu"> Activités </li>
+		<li class="menu"> Galerie </li>
+		<li class="menu"> Espace pédagogique </li>
+		<li class="menu"> Échanges </li>
+	</ul>
+</div>
+</body>
+
+
+
+
+<footer>
+	<div class="bottom" class="border">
+		<ul class="bottom2">	
+			<p class="titre-footer"> Supports </p>
+			<li> Aide </li>
+			<li> Twitter </li>
+			<li> Facebook </li>
+			<li> Google+ </li>
+		</ul>
+		<ul class="bottom2" class="border">
+			<p class="titre-footer"> Contactez-nous </p>
+			<li> Adresse </li>
+			<li> E-mail</li>
+			<li> Téléphone </li>
+		</ul>
+	</div>
+
+
+</footer>
+
+
+</html>

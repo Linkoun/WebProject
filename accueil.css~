@@ -1,0 +1,175 @@
+body
+{
+	font-size:120%;
+	margin:auto;
+	background:url(forme/Fond.png) no-repeat center fixed;
+	background-size:cover;
+}
+
+/* Entête */
+header
+{
+	background-color:black;
+	display:block;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+header a:hover{
+	color:#FFFFFF;
+}
+
+.top
+{
+	color:#C0C0C0;
+	display:inline;
+	margin-left:1em;
+	margin-right:1em;
+	text-decoration:none;
+}
+
+#Logo
+{
+	margin-top:5em;
+	margin-bottom:4em;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;	
+}
+
+
+ul#menu{
+    padding:2em;
+	margin-bottom:2em;
+	text-align:center;
+
+}
+
+ul#menu a{
+	color:#000000;
+	text-decoration:none;
+}
+
+ul#menu a li{
+	display : inline ;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-weight:bold;
+}
+
+#Acc li
+{
+	border-radius: 20px 0px 0px 20px;
+	border: solid #E0E0E0 5px;
+	background-color: #EAEAEA;
+	font-size:150%;
+}
+
+#Act li
+{
+	border: solid #dF4056 5px;
+	background-color:#CF4024;
+}
+
+#Gal li
+{
+	border: solid #fbff3a 5px;
+	background-color:#fcff5b;
+}
+
+#EP li
+{
+	border: solid #b149e7 5px;
+	background-color:#b857eb;
+}
+
+#Ech li
+{
+	border-radius: 0px 20px 20px 0px;
+	border: solid #b5f49f 5px;
+	background-color:#caf0bd;
+}
+
+.menu:hover
+{
+	font-size: 150%;
+}
+
+/* Centre */
+
+#fond
+{
+margin:auto;	
+width:1000px;
+background-color:#EAEAEA ;
+border-radius: 20px 20px 20px 20px;
+padding: 10px;
+border: solid #D0D0D0 5px;
+margin-bottom: 2em;
+box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+}
+
+
+.imgp 
+{
+
+	float:right;
+	width:500px;
+	height:300px;
+	margin-left:1em;
+	margin-bottom:1em;
+	
+
+}
+
+
+.text
+{
+	margin-left :2em;
+	margin-bottom:5px;
+}
+
+
+/* Bas de page */
+
+footer
+{
+    background-color:black;
+    display :flex ;
+    color:#C0C0C0;
+}
+
+footer a:hover{
+    color:#FFFFFF
+}
+
+.icon
+{
+    width:20px;
+    float:left;
+}
+
+
+.bottom
+{
+    padding-left:0px;
+    margin-right:1em;
+    margin-left:3em;
+    display:inline;
+    list-style-type: none;
+}
+
+.bottom a
+{
+    text-decoration:none;
+    color:#C0C0C0;
+}
+
+footer #map{
+    width:400px;
+    height:200px;
+    margin-left:4em;
+}
+
+

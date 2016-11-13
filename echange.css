@@ -1,0 +1,329 @@
+
+body
+{
+font-size:120%;
+margin:auto;
+background:url(forme/Fond.png) no-repeat center fixed;
+background-size:cover;
+}
+
+/* Entête */
+/* Entête */
+header
+{
+	background-color:black;
+	display:block;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+header a:hover{
+	color:#FFFFFF;
+}
+
+.top
+{
+	color:#C0C0C0;
+	display:inline;
+	margin-left:1em;
+	margin-right:1em;
+	text-decoration:none;
+}
+
+#Logo
+{
+	margin-top:5em;
+	margin-bottom:5em;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;	
+}
+
+ul#menu{
+    padding:2em;
+	margin-bottom:2em;
+	text-align:center;
+	font-size:120%;
+}
+
+ul#menu a{
+	color:#000000;
+	text-decoration:none;
+}
+
+ul#menu a li{
+	display : inline ;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-weight:bold;
+}
+
+#Acc li
+{
+	border-radius: 20px 0px 0px 20px;
+	border: solid #E0E0E0 5px;
+	background-color: #EAEAEA ;
+}
+
+#Act li
+{
+	border: solid #dF4056 5px;
+	background-color:#CF4024;
+}
+
+#Gal li
+{
+	border: solid #fbff3a 5px;
+	background-color:#fcff5b;
+}
+
+#EP li
+{
+	border: solid #b149e7 5px;
+	background-color:#b857eb;
+}
+
+#Ech li
+{
+	font-size:150%;
+	border-radius: 0px 20px 20px 0px;
+	border: solid #b5f49f 5px;
+	background-color:#caf0bd;
+}
+
+.menu:hover
+{
+	font-size: 150%;
+}
+
+/* Centre */
+
+#fond
+{
+margin:auto;	
+width:1000px;
+background-color:#caf0bd;
+border-radius: 20px 20px 20px 20px;
+padding: 10px;
+border: solid #b5f49f 5px;
+margin-bottom: 2em;
+box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+}
+
+#fond  p
+{
+	padding-left: 8%;
+}
+
+#recherche
+{
+margin: auto;
+width: 900px;
+height: 100px;
+background-color: #91C380;
+border-radius: 15px 15px 15px 15px;
+padding: auto;
+border: solid #4B8438 2px;
+margin-top: 10px; 
+}
+
+#annoncer
+{
+	border: solid #4B8438 2px;
+	border-top: none;
+	width: 300px;
+	height: 60px;
+	border-radius: 15px 15px 15px 15px;
+	background-color: #7BC299;
+	float: right;
+	margin-right: 50px;
+	margin-top: 0px;
+	text-decoration: none;
+}
+
+#annoncer:hover
+{
+	background-color: #FFFFFF;
+	border: solid #4B8438 2px;
+	border-top: none;
+	border-right: none;
+	border: solid #7BC299 1px;
+}
+
+#annoncer p
+{
+	text-align: center;
+	color: black;
+}
+
+#RechercheInput
+{
+	display: inline;
+	width: 250px;
+    margin-left: 10px;
+	margin-top: 10px;
+	height: 30px;
+	padding-right: auto;
+	padding-left: auto;
+}
+
+#catInput
+{
+	height: 30px;
+	margin-left: 10px;
+}
+
+.objet
+{	
+	margin: auto;
+	width: 900px;
+	border-radius: 15px 15px 15px 15px;
+	background-color: #91C380;
+	border: solid #4B8438 2px;
+	margin-top: 130px;
+	height: 410px;
+	margin-bottom: 2em;
+}
+
+.objet a
+{
+	text-decoration: none;
+	color: #FA1C1C;
+	font-style: italic;
+}
+
+.objet a:hover
+{
+	color: #FFFFFF;
+}
+
+#image2
+{
+	width:450px;
+	height:300px;
+	float: right;
+	margin: 30px;
+	margin-top: 55px;
+	display: inline;
+}
+#text2
+{
+	border: solid #4B8438 1px;
+	border-radius: 10px;
+	margin-left: 60px;
+	margin-top: 60px;
+	padding: 10px;
+	float: left;
+	width: 258px;
+	height: 270px;
+	display: inline;
+}
+
+
+#image3
+{
+	width:230px;
+	height:350px;
+	margin: 30px;
+	margin-left: 50px;
+}
+
+#text3
+{
+	border: solid #4B8438 1px;
+	border-radius: 10px;
+	padding: 10px;
+	margin-right: 30px;
+	margin-top: 30px;
+	display: inline;
+	float: right;
+	width: 520px;
+	height: 330px;
+}
+
+#image4
+{
+	margin:30px;
+	float: right;
+	width: 230px;
+	height: 350px;
+}
+
+#text4
+{
+	display: inline;
+	float: left;
+	padding: 10px;
+	margin-left: 60px;
+	margin-top: 60px;
+	border: solid #4B8438 1px;
+	border-radius: 10px;
+	width: 520px;
+	height: 260px;
+}
+
+.ButtonJeveux
+{
+	border: solid #b5f49f 1px;
+	
+	margin: auto;
+	border-radius: 10px;
+	background-color: #caf0bd;
+}
+
+.ButtonJeveux p
+{
+	text-align: center;
+}
+
+.ButtonJeveux:hover
+{
+	background-color: #FFFFFF;
+	color: red;
+}
+
+/* Bas de page */
+
+
+footer
+{
+    background-color:black;
+    display :flex ;
+    color:#C0C0C0;
+}
+
+footer a:hover{
+    color:#FFFFFF
+}
+
+.icon
+{
+    width:20px;
+    float:left;
+}
+
+
+.bottom
+{
+    padding-left:0px;
+    margin-right:1em;
+    margin-left:3em;
+    display:inline;
+    list-style-type: none;
+}
+
+.bottom a
+{
+    text-decoration:none;
+    color:#C0C0C0;
+}
+
+footer #map{
+    width:400px;
+    height:200px;
+    margin-left:4em;
+}
+
+
+
